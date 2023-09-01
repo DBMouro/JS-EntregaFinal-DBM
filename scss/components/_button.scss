@@ -1,0 +1,39 @@
+.button-center{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.btn{
+    color:$color-negro;
+    border-color:$color-negro;
+
+    &-violeta{
+        background-color:$color-violeta;
+        color:$color-blanco;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        &:hover{
+            background-color:$color-blanco;
+            color:$color-violeta;
+            border-color:$color-violeta;
+        }
+
+    }
+
+    &-modal{
+        background-color:$color-blanco;
+        color:$color-negro;
+        font-size: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        &:hover{
+            background-color:$color-violeta;
+            color:$color-blanco;
+            border-color:$color-blanco;
+        }
+
+    }
+}
+

@@ -1,0 +1,56 @@
+.c-violeta {
+    color: $color-violeta;
+
+}
+
+.img-portada {
+    opacity: 0.6;
+}
+
+.portada {
+    margin-left: 15%;
+}
+
+
+.fullcap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-violeta;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.fullwrap {
+    max-width: 500px;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    &:hover .fullcap {
+        opacity: 1;
+    }
+}
+
+.hover-consejos {
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: middle;
+    white-space: normal;
+
+    border: none;
+    background-color: $color-violeta;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: $color-blanco;
+}

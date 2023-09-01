@@ -1,0 +1,61 @@
+.portada-mascotas {
+    margin-left: 5%;
+}
+
+.carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        max-width: 1030px;
+        scroll-behavior: smooth;
+    }
+}
+
+.carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+
+    img {
+        background: $color-blanco;
+        border: 4px solid  $color-blanco;
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+.carrusel-menu {
+    display: none;
+}
+
+@media screen and (min-width: 500px) {
+    .carrusel-fotos {
+        overflow: hidden;
+
+        img {
+            width: 500px;
+            height: 400px;
+        }
+    }
+
+    .carrusel-menu {
+        display: block;
+
+        img {
+            box-sizing: border-box;
+            width: 50px;
+            height: 40px;
+            border: 10px solid  $color-blanco;
+
+            &:hover {
+                border: none;
+            }
+        }
+    }
+}

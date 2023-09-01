@@ -1,0 +1,67 @@
+.card {
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 8px 5px;
+    width: 250px ;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    &__img{   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        padding-top: 5%;
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+    }
+
+    &__body{
+        padding: 1rem;
+    }
+
+    &__desc{
+        text-align: center;
+        font-size: medium;
+    }
+
+    &__btn{
+        background-color:$color-violeta;
+        color:$color-blanco;
+        border-color:$color-gris;
+        box-shadow : 5px 5px 5px;
+        font-size: 15px;
+    }
+
+    &__btn:hover{
+        background-color:$color-blanco;
+        color:$color-violeta;
+    }
+
+    &-img{
+        padding-top: 10%;
+        display: block;
+        object-fit: cover;
+        border-top-left-radius: 50px 100px;
+        border-bottom-right-radius: 50px 100px;
+    }
+
+    &-title{
+        padding-top: 5%;
+    }
+
+    &-text{
+        padding-top:5%;
+        font-size:15px;
+        font-family: sans-serif;
+    }
+    
+}
+
+
+
+.image_down{
+    object-position: 0% 10%;
+}

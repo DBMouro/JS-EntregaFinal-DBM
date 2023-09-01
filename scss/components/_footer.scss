@@ -1,0 +1,45 @@
+.footer{
+    background-color:$color-grisclaro;
+    background-size:cover;
+
+}
+
+
+.text-footer{
+    color:$color-negro;
+}
+
+
+.bi{
+    font-size: 150% ;
+
+
+
+    &-instagram{
+        color:$color-blanco;
+
+        &:hover{
+            color:$color-violeta;
+        }
+    }
+
+
+    &-twitter{
+        color:$color-blanco;
+
+        &:hover{
+            color:$color-grisclaro;
+        }
+    }
+
+    &-facebook{
+        color:$color-blanco;
+
+        &:hover{
+            color:$color-grisclaro;
+        }
+    }
+
+
+
+}

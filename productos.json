@@ -1,0 +1,52 @@
+{ "productos":[
+
+    {
+        "id": 1,
+        "nombre": "Alimento Excellent Maintenance Formula para perro cachorro todos los tamaños sabor mix en bolsa de 20 kg",
+        "Image": "../images/excellentpuppy.png",
+        "precio": 26000
+    },
+    {
+        "id": 2,
+        "nombre": "Alimento Excellent Maintenance Formula para perro adulto todos los tamaños sabor mix en bolsa de 20 kg",
+        "Image": "../images/excellentadulto.png",
+        "precio": 20000
+    },
+    {
+        "id": 3,
+        "nombre": "Collar De Perro Regulable Con Identificación Bordada 2 Cm",
+        "Image": "../images/CollarDePerro.png",
+        "precio": 2000
+    },
+    {
+        "id": 4,
+        "nombre": "Cama Para Perro Grande Colchoneta Antidesgarro",
+        "Image": "../images/camagrande.png",
+        "precio": 5000
+    },
+    {
+        "id": 5,
+        "nombre": "Alimento Royal Canin Club Performance Adult para perro adulto todos los tamaños sabor mix en bolsa de 20 kg",
+        "Image": "../images/PerformanceAdult.png",
+        "precio": 16000
+    },
+    {
+        "id": 6,
+        "nombre": "Old Prince Noveles Cordero Y Arroz Adulto X 18 Kg",
+        "Image": "../images/oldprince.png",
+        "precio": 15000
+    },
+    {
+        "id": 7,
+        "nombre": "Abrigo Buzo De Peluche Corderito Para Perros",
+        "Image": "../images/abrigopeluche.png",
+        "precio": 6000
+    },
+    {
+        "id": 8,
+        "nombre": "Collar Premium Perro Pro - Seguridad Identificación Bordado",
+        "Image": "../images/proseguridad.png",
+        "precio": 4000
+    }
+]
+}
