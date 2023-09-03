@@ -58,7 +58,12 @@ fetch('../productos.json').then(function (respuesta) {
                 buttonSacar.addEventListener("click", () => {
                     buttonSacar.parentNode.parentNode.removeChild(buttonSacar.parentNode)
                     carrito.pop(i)
+                    donacionesTotal -= p.precio
+                    donaciones.innerHTML= `Total \$${donacionesTotal}
+            `
+                    
                     localStorage.setItem("carrito", JSON.stringify(carrito));
+                    
                 })
                     
                 tableRow = document.createElement("tr")
