@@ -58,7 +58,6 @@ const validarCampo = (expresion, input, campo) => {
         document.querySelector(`#grupo__${campo} i`).classList.remove("fa-check-circle");
         document.querySelector(`#grupo__${campo} .formulario__input-error`).classList.add("formulario__input-error-activo");
         campos[campo] = false;
-        console.log("Funciona");
         }
 }
 
@@ -74,7 +73,6 @@ const validarPassword2 = () => {
         document.querySelector(`#grupo__password2 i`).classList.remove("fa-check-circle");
         document.querySelector(`#grupo__password2 .formulario__input-error`).classList.add("formulario__input-error-activo");
         campos[password] = false;
-        console.log("Funciona");
     } else {
         document.getElementById(`grupo__password2`).classList.remove("formulario__grupo-incorrecto");
         document.getElementById(`grupo__password2`).classList.add("formulario__grupo-correcto");
@@ -82,7 +80,6 @@ const validarPassword2 = () => {
         document.querySelector(`#grupo__password2 i`).classList.add("fa-check-circle");
         document.querySelector(`#grupo__password2 .formulario__input-error`).classList.remove("formulario__input-error-activo");
         campos[password] = true;
-        console.log("Funciona");
     }
 }
 
@@ -111,6 +108,7 @@ $formulario.addEventListener("submit", (e) => {
         
         setTimeout(() => {
             location.reload();
+            window.location= "/index.html"
         }, 5000);
 
     } else {
